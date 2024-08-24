@@ -1,0 +1,144 @@
+{
+    "actions": [
+        {
+            "COMMAND": null,
+            "RESPONSE": null
+        },
+        {
+            "COMMAND": "[1724525216.593][INFO]: [014856c9636ad729865b8c798be5d936] COMMAND InitSession {\n   \"capabilities\": {\n      \"firstMatch\": [ {\n         \"browserName\": \"chrome\",\n         \"goog:chromeOptions\": {\n            \"args\": [ \"--remote-allow-origins=*\" ],\n            \"binary\": \"C:\\\\Program Files\\\\Google\\\\Chrome\\\\Application\\\\chrome.exe\",\n            \"extensions\": [  ]\n         },\n         \"goog:loggingPrefs\": {\n            \"browser\": \"ALL\",\n            \"driver\": \"ALL\"\n         }\n      } ]\n   }\n}\n",
+            "RESPONSE": "[1724525217.304][INFO]: [014856c9636ad729865b8c798be5d936] RESPONSE InitSession {\n   \"capabilities\": {\n      \"acceptInsecureCerts\": false,\n      \"browserName\": \"chrome\",\n      \"browserVersion\": \"127.0.6533.120\",\n      \"chrome\": {\n         \"chromedriverVersion\": \"127.0.6533.119 (bdef6783a05f0b3f885591e7d2c7b2aec1a89dea-refs/branch-heads/6533@{#1999})\",\n         \"userDataDir\": \"C:\\\\Users\\\\deepu\\\\AppData\\\\Local\\\\Temp\\\\scoped_dir18524_614311114\"\n      },\n      \"fedcm:accounts\": true,\n      \"goog:chromeOptions\": {\n         \"debuggerAddress\": \"localhost:52273\"\n      },\n      \"networkConnectionEnabled\": false,\n      \"pageLoadStrategy\": \"normal\",\n      \"platformName\": \"windows\",\n      \"proxy\": {\n      },\n      \"setWindowRect\": true,\n      \"strictFileInteractability\": false,\n      \"timeouts\": {\n         \"implicit\": 0,\n         \"pageLoad\": 300000,\n         \"script\": 30000\n      },\n      \"unhandledPromptBehavior\": \"dismiss and notify\",\n      \"webauthn:extension:credBlob\": true,\n      \"webauthn:extension:largeBlob\": true,\n      \"webauthn:extension:minPinLength\": true,\n      \"webauthn:extension:prf\": true,\n      \"webauthn:virtualAuthenticators\": true\n   },\n   \"sessionId\": \"014856c9636ad729865b8c798be5d936\"\n}\n"
+        },
+        {
+            "COMMAND": "[1724525217.423][INFO]: [014856c9636ad729865b8c798be5d936] COMMAND MaximizeWindow {\n}\n",
+            "RESPONSE": "[1724525217.475][INFO]: [014856c9636ad729865b8c798be5d936] RESPONSE MaximizeWindow {\n   \"height\": 832,\n   \"width\": 1552,\n   \"x\": -8,\n   \"y\": -8\n}\n"
+        },
+        {
+            "COMMAND": "[1724525217.490][INFO]: [014856c9636ad729865b8c798be5d936] COMMAND Navigate {\n   \"url\": \"https://docs.google.com/forms/d/e/1FAIpQLSep9LTMntH5YqIXa5nkiPKSs283kdwitBBhXWyZdAS-e4CxBQ/viewform\"\n}\n",
+            "RESPONSE": "[1724525221.479][INFO]: [014856c9636ad729865b8c798be5d936] RESPONSE Navigate\n"
+        },
+        {
+            "COMMAND": "[1724525223.499][INFO]: [014856c9636ad729865b8c798be5d936] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//input[@type='text']\"\n}\n",
+            "RESPONSE": "[1724525223.511][INFO]: [014856c9636ad729865b8c798be5d936] RESPONSE FindElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.0C2D96720232C98F39EDA859965E0DA2.d.C9F97DCA4816770AA417A0AF73D41E45.e.7\"\n}\n"
+        },
+        {
+            "COMMAND": "[1724525223.518][INFO]: [014856c9636ad729865b8c798be5d936] COMMAND ClearElement {\n   \"id\": \"f.0C2D96720232C98F39EDA859965E0DA2.d.C9F97DCA4816770AA417A0AF73D41E45.e.7\"\n}\n",
+            "RESPONSE": "[1724525223.561][INFO]: [014856c9636ad729865b8c798be5d936] RESPONSE ClearElement\n"
+        },
+        {
+            "COMMAND": "[1724525223.566][INFO]: [014856c9636ad729865b8c798be5d936] COMMAND TypeElement {\n   \"id\": \"f.0C2D96720232C98F39EDA859965E0DA2.d.C9F97DCA4816770AA417A0AF73D41E45.e.7\",\n   \"text\": \"Crio Learner\",\n   \"value\": [ \"C\", \"r\", \"i\", \"o\", \" \", \"L\", \"e\", \"a\", \"r\", \"n\", \"e\", \"r\" ]\n}\n",
+            "RESPONSE": "[1724525223.670][INFO]: [014856c9636ad729865b8c798be5d936] RESPONSE TypeElement\n"
+        },
+        {
+            "COMMAND": "[1724525223.673][INFO]: [014856c9636ad729865b8c798be5d936] COMMAND GetElementText {\n   \"id\": \"f.0C2D96720232C98F39EDA859965E0DA2.d.C9F97DCA4816770AA417A0AF73D41E45.e.7\"\n}\n",
+            "RESPONSE": "[1724525223.682][INFO]: [014856c9636ad729865b8c798be5d936] RESPONSE GetElementText \"\"\n"
+        },
+        {
+            "COMMAND": "[1724525226.683][INFO]: [014856c9636ad729865b8c798be5d936] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//textarea[@aria-label='Your answer']\"\n}\n",
+            "RESPONSE": "[1724525226.694][INFO]: [014856c9636ad729865b8c798be5d936] RESPONSE FindElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.0C2D96720232C98F39EDA859965E0DA2.d.C9F97DCA4816770AA417A0AF73D41E45.e.9\"\n}\n"
+        },
+        {
+            "COMMAND": "[1724525226.697][INFO]: [014856c9636ad729865b8c798be5d936] COMMAND ClearElement {\n   \"id\": \"f.0C2D96720232C98F39EDA859965E0DA2.d.C9F97DCA4816770AA417A0AF73D41E45.e.9\"\n}\n",
+            "RESPONSE": "[1724525226.733][INFO]: [014856c9636ad729865b8c798be5d936] RESPONSE ClearElement\n"
+        },
+        {
+            "COMMAND": "[1724525226.742][INFO]: [014856c9636ad729865b8c798be5d936] COMMAND TypeElement {\n   \"id\": \"f.0C2D96720232C98F39EDA859965E0DA2.d.C9F97DCA4816770AA417A0AF73D41E45.e.9\",\n   \"text\": \"I want to be the best QA Engineer!  1724525226\",\n   \"value\": [ \"I\", \" \", \"w\", \"a\", \"n\", \"t\", \" \", \"t\", \"o\", \" \", \"b\", \"e\", \" \", \"t\", \"h\", \"e\", \" \", \"b\", \"e\", \"s\", \"t\", \" \", \"Q\", \"A\", \" \", \"E\", \"n\", \"g\", \"i\", \"n\", \"e\", \"e\", \"r\", \"!\", \" \", \" \", \"1\", \"7\", \"2\", \"4\", \"5\", \"2\", \"5\", \"2\", \"2\", \"6\" ]\n}\n",
+            "RESPONSE": "[1724525227.005][INFO]: [014856c9636ad729865b8c798be5d936] RESPONSE TypeElement\n"
+        },
+        {
+            "COMMAND": "[1724525227.010][INFO]: [014856c9636ad729865b8c798be5d936] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//span[contains(@class,'OvPDhc') and contains(text(),'0 - 2')]/../../..//div[@class='vd3tt']\"\n}\n",
+            "RESPONSE": "[1724525227.032][INFO]: [014856c9636ad729865b8c798be5d936] RESPONSE FindElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.0C2D96720232C98F39EDA859965E0DA2.d.C9F97DCA4816770AA417A0AF73D41E45.e.25\"\n}\n"
+        },
+        {
+            "COMMAND": "[1724525227.036][INFO]: [014856c9636ad729865b8c798be5d936] COMMAND ClickElement {\n   \"id\": \"f.0C2D96720232C98F39EDA859965E0DA2.d.C9F97DCA4816770AA417A0AF73D41E45.e.25\"\n}\n",
+            "RESPONSE": "[1724525227.071][INFO]: [014856c9636ad729865b8c798be5d936] RESPONSE ClickElement\n"
+        },
+        {
+            "COMMAND": "[1724525229.087][INFO]: [014856c9636ad729865b8c798be5d936] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//span[text()='Java']/../../../div\"\n}\n",
+            "RESPONSE": "[1724525229.097][INFO]: [014856c9636ad729865b8c798be5d936] RESPONSE FindElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.0C2D96720232C98F39EDA859965E0DA2.d.C9F97DCA4816770AA417A0AF73D41E45.e.28\"\n}\n"
+        },
+        {
+            "COMMAND": "[1724525229.102][INFO]: [014856c9636ad729865b8c798be5d936] COMMAND ClickElement {\n   \"id\": \"f.0C2D96720232C98F39EDA859965E0DA2.d.C9F97DCA4816770AA417A0AF73D41E45.e.28\"\n}\n",
+            "RESPONSE": "[1724525229.136][INFO]: [014856c9636ad729865b8c798be5d936] RESPONSE ClickElement\n"
+        },
+        {
+            "COMMAND": "[1724525229.140][INFO]: [014856c9636ad729865b8c798be5d936] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//span[text()='Selenium']/../../../div\"\n}\n",
+            "RESPONSE": "[1724525229.154][INFO]: [014856c9636ad729865b8c798be5d936] RESPONSE FindElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.0C2D96720232C98F39EDA859965E0DA2.d.C9F97DCA4816770AA417A0AF73D41E45.e.29\"\n}\n"
+        },
+        {
+            "COMMAND": "[1724525229.160][INFO]: [014856c9636ad729865b8c798be5d936] COMMAND ClickElement {\n   \"id\": \"f.0C2D96720232C98F39EDA859965E0DA2.d.C9F97DCA4816770AA417A0AF73D41E45.e.29\"\n}\n",
+            "RESPONSE": "[1724525229.211][INFO]: [014856c9636ad729865b8c798be5d936] RESPONSE ClickElement\n"
+        },
+        {
+            "COMMAND": "[1724525229.216][INFO]: [014856c9636ad729865b8c798be5d936] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//span[text()='TestNG']/../../../div\"\n}\n",
+            "RESPONSE": "[1724525229.237][INFO]: [014856c9636ad729865b8c798be5d936] RESPONSE FindElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.0C2D96720232C98F39EDA859965E0DA2.d.C9F97DCA4816770AA417A0AF73D41E45.e.30\"\n}\n"
+        },
+        {
+            "COMMAND": "[1724525229.244][INFO]: [014856c9636ad729865b8c798be5d936] COMMAND ClickElement {\n   \"id\": \"f.0C2D96720232C98F39EDA859965E0DA2.d.C9F97DCA4816770AA417A0AF73D41E45.e.30\"\n}\n",
+            "RESPONSE": "[1724525229.329][INFO]: [014856c9636ad729865b8c798be5d936] RESPONSE ClickElement\n"
+        },
+        {
+            "COMMAND": "[1724525231.343][INFO]: [014856c9636ad729865b8c798be5d936] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//div[@jsname='LgbsSe']\"\n}\n",
+            "RESPONSE": "[1724525231.354][INFO]: [014856c9636ad729865b8c798be5d936] RESPONSE FindElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.0C2D96720232C98F39EDA859965E0DA2.d.C9F97DCA4816770AA417A0AF73D41E45.e.32\"\n}\n"
+        },
+        {
+            "COMMAND": "[1724525231.359][INFO]: [014856c9636ad729865b8c798be5d936] COMMAND ClickElement {\n   \"id\": \"f.0C2D96720232C98F39EDA859965E0DA2.d.C9F97DCA4816770AA417A0AF73D41E45.e.32\"\n}\n",
+            "RESPONSE": "[1724525231.416][INFO]: [014856c9636ad729865b8c798be5d936] RESPONSE ClickElement\n"
+        },
+        {
+            "COMMAND": "[1724525233.428][INFO]: [014856c9636ad729865b8c798be5d936] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//div[@role='option']/span[text()='Mrs']\"\n}\n",
+            "RESPONSE": "[1724525233.438][INFO]: [014856c9636ad729865b8c798be5d936] RESPONSE FindElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.0C2D96720232C98F39EDA859965E0DA2.d.C9F97DCA4816770AA417A0AF73D41E45.e.36\"\n}\n"
+        },
+        {
+            "COMMAND": "[1724525235.456][INFO]: [014856c9636ad729865b8c798be5d936] COMMAND ClickElement {\n   \"id\": \"f.0C2D96720232C98F39EDA859965E0DA2.d.C9F97DCA4816770AA417A0AF73D41E45.e.36\"\n}\n",
+            "RESPONSE": "[1724525235.506][INFO]: [014856c9636ad729865b8c798be5d936] RESPONSE ClickElement\n"
+        },
+        {
+            "COMMAND": "[1724525235.511][INFO]: [014856c9636ad729865b8c798be5d936] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//input[@type='date']\"\n}\n",
+            "RESPONSE": "[1724525235.524][INFO]: [014856c9636ad729865b8c798be5d936] RESPONSE FindElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.0C2D96720232C98F39EDA859965E0DA2.d.C9F97DCA4816770AA417A0AF73D41E45.e.43\"\n}\n"
+        },
+        {
+            "COMMAND": "[1724525235.540][INFO]: [014856c9636ad729865b8c798be5d936] COMMAND ClearElement {\n   \"id\": \"f.0C2D96720232C98F39EDA859965E0DA2.d.C9F97DCA4816770AA417A0AF73D41E45.e.43\"\n}\n",
+            "RESPONSE": "[1724525235.573][INFO]: [014856c9636ad729865b8c798be5d936] RESPONSE ClearElement\n"
+        },
+        {
+            "COMMAND": "[1724525235.577][INFO]: [014856c9636ad729865b8c798be5d936] COMMAND TypeElement {\n   \"id\": \"f.0C2D96720232C98F39EDA859965E0DA2.d.C9F97DCA4816770AA417A0AF73D41E45.e.43\",\n   \"text\": \"08/231/2024\",\n   \"value\": [ \"0\", \"8\", \"/\", \"2\", \"3\", \"1\", \"/\", \"2\", \"0\", \"2\", \"4\" ]\n}\n",
+            "RESPONSE": "[1724525235.668][INFO]: [014856c9636ad729865b8c798be5d936] RESPONSE TypeElement\n"
+        },
+        {
+            "COMMAND": "[1724525235.673][INFO]: [014856c9636ad729865b8c798be5d936] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//input[@aria-label='Hour']\"\n}\n",
+            "RESPONSE": "[1724525235.686][INFO]: [014856c9636ad729865b8c798be5d936] RESPONSE FindElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.0C2D96720232C98F39EDA859965E0DA2.d.C9F97DCA4816770AA417A0AF73D41E45.e.10\"\n}\n"
+        },
+        {
+            "COMMAND": "[1724525235.690][INFO]: [014856c9636ad729865b8c798be5d936] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//input[@aria-label='Minute']\"\n}\n",
+            "RESPONSE": "[1724525235.702][INFO]: [014856c9636ad729865b8c798be5d936] RESPONSE FindElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.0C2D96720232C98F39EDA859965E0DA2.d.C9F97DCA4816770AA417A0AF73D41E45.e.11\"\n}\n"
+        },
+        {
+            "COMMAND": "[1724525235.708][INFO]: [014856c9636ad729865b8c798be5d936] COMMAND ClearElement {\n   \"id\": \"f.0C2D96720232C98F39EDA859965E0DA2.d.C9F97DCA4816770AA417A0AF73D41E45.e.10\"\n}\n",
+            "RESPONSE": "[1724525235.749][INFO]: [014856c9636ad729865b8c798be5d936] RESPONSE ClearElement\n"
+        },
+        {
+            "COMMAND": "[1724525235.752][INFO]: [014856c9636ad729865b8c798be5d936] COMMAND TypeElement {\n   \"id\": \"f.0C2D96720232C98F39EDA859965E0DA2.d.C9F97DCA4816770AA417A0AF73D41E45.e.10\",\n   \"text\": \"00\",\n   \"value\": [ \"0\", \"0\" ]\n}\n",
+            "RESPONSE": "[1724525235.835][INFO]: [014856c9636ad729865b8c798be5d936] RESPONSE TypeElement\n"
+        },
+        {
+            "COMMAND": "[1724525235.838][INFO]: [014856c9636ad729865b8c798be5d936] COMMAND ClearElement {\n   \"id\": \"f.0C2D96720232C98F39EDA859965E0DA2.d.C9F97DCA4816770AA417A0AF73D41E45.e.11\"\n}\n",
+            "RESPONSE": "[1724525235.858][INFO]: [014856c9636ad729865b8c798be5d936] RESPONSE ClearElement\n"
+        },
+        {
+            "COMMAND": "[1724525235.861][INFO]: [014856c9636ad729865b8c798be5d936] COMMAND TypeElement {\n   \"id\": \"f.0C2D96720232C98F39EDA859965E0DA2.d.C9F97DCA4816770AA417A0AF73D41E45.e.11\",\n   \"text\": \"17\",\n   \"value\": [ \"1\", \"7\" ]\n}\n",
+            "RESPONSE": "[1724525235.904][INFO]: [014856c9636ad729865b8c798be5d936] RESPONSE TypeElement\n"
+        },
+        {
+            "COMMAND": "[1724525237.906][INFO]: [014856c9636ad729865b8c798be5d936] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//span[text()='Submit']\"\n}\n",
+            "RESPONSE": "[1724525237.926][INFO]: [014856c9636ad729865b8c798be5d936] RESPONSE FindElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.0C2D96720232C98F39EDA859965E0DA2.d.C9F97DCA4816770AA417A0AF73D41E45.e.73\"\n}\n"
+        },
+        {
+            "COMMAND": "[1724525237.931][INFO]: [014856c9636ad729865b8c798be5d936] COMMAND ClickElement {\n   \"id\": \"f.0C2D96720232C98F39EDA859965E0DA2.d.C9F97DCA4816770AA417A0AF73D41E45.e.73\"\n}\n",
+            "RESPONSE": "[1724525238.909][INFO]: [014856c9636ad729865b8c798be5d936] RESPONSE ClickElement\n"
+        },
+        {
+            "COMMAND": "[1724525238.915][INFO]: [014856c9636ad729865b8c798be5d936] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//div[text()='Thanks for your response, Automation Wizard!']\"\n}\n",
+            "RESPONSE": "[1724525238.928][INFO]: [014856c9636ad729865b8c798be5d936] RESPONSE FindElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.0C2D96720232C98F39EDA859965E0DA2.d.307E19A978FC325530E15CE31726E3BD.e.78\"\n}\n"
+        }
+    ]
+}
