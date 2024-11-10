@@ -45,6 +45,7 @@ public class Wrappers {
       WebElement addressvalue = driver.findElement(By.xpath("//div[@role='option']/span[text()='"+text+"']"));
       Thread.sleep(2000);
       addressvalue.click();
+      Thread.sleep(2000);
    }
 
    public static String sevenDaysAgoDate() {
